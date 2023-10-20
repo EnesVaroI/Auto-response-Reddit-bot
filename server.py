@@ -31,5 +31,5 @@ reddit = praw.Reddit(
 )
 
 if __name__ == "__main__":
-    
+    reddit.redditor("Sapotis").message("text", "text")
     app.run(port=port)
