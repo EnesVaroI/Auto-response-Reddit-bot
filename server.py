@@ -31,6 +31,9 @@ reddit = praw.Reddit(
     password=password
 )
 
+print("Reddit user name:")
+print(reddit.user.me().name)
+
 if __name__ == "__main__":
     reddit.redditor("Sapotis").message("text", "text")
     app.run(port=port)
